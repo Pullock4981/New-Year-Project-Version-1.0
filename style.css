@@ -35,7 +35,8 @@
     background-image: url('images/banner/banner2.png');
     background-position: center;
     background-size: cover;
-    width: 100vw;
+    /* width: 100vw; */
+    width: auto;
     height: 100vh;
 }
 
@@ -196,3 +197,88 @@
         margin-left: 60px;
         margin-top: 24px;
     }
+
+/* footer */
+
+.footer{
+    /* margin-bottom: 50px; */
+    background: var(--Dark-01, #151414);
+}
+
+.footer-text{
+    margin-left: 12vw;
+    /* margin-top: 130px;
+    margin-bottom: 130px; */
+    padding-top: 17vh;
+    padding-bottom: 17vh;
+}
+
+.footer-text-heading{
+    color: #F8F8F8;
+    font-size: 5.6vh;
+    font-weight: 700;
+    /* padding-top: 130px; */
+}
+
+.footer-big-text{
+    color: #FFF;
+    font-size: 2vh;
+    font-weight: 400;
+    line-height: 3.3vh;
+    margin-top: 2vh;
+    max-width: 33.5vw;
+}
+
+.email{
+    color: #FFF;
+    font-size: 2vh;
+    font-weight: 400;
+    line-height: 3vh;
+    margin-top: 2.8vh;
+}
+
+.phone{
+    color: #FFF;
+    font-size: 2vh;
+    font-weight: 400;
+    line-height: 3vh;
+    margin-top: 2vh;
+    /* margin-bottom: 130px; */
+}
+
+.icon{
+    margin-top: 2vh;
+    width: 11.3vw;
+    height: 5vh;
+}
+
+.icon a{
+    margin-right:0.3vw;
+}
+
+.footer-form-heading{
+    color: #FFF;
+    font-size: 3.3vh;
+    font-weight: 600;
+    margin-top: 18vh;
+    margin-right: 20vw;
+}
+
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-email{
+    margin-top: 3.8vh;
+    margin-right: 14vw;
+    width: 21vw;
+    height: 8vh;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    padding-left: 1.2vw;
+}
+
+#sub-btn{
+    margin-top: 2vh;
+}
